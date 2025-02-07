@@ -1,0 +1,53 @@
+/* styles/Home.module.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 40px;
+    background-image: url('https://cdn.pixabay.com/photo/2022/06/30/02/00/mountains-7292778_1280.jpg');
+    background-size: cover; /* 배경 이미지 크기 조정 */
+    background-position: center; /* 배경 이미지 위치 조정 */
+    color: white; /* 텍스트 색상 */
+    padding: 40px; /* 패딩 추가 */
+}
+
+.viewPosts {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.category {
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
