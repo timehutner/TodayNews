@@ -9,8 +9,9 @@
 .header {
     margin-bottom: 40px;
     background-image: url('https://cdn.pixabay.com/photo/2022/06/30/02/00/mountains-7292778_1280.jpg');
-    background-size: cover; /* 배경 이미지 크기 조정 */
+    background-size: contain; /* 또는 cover */
     background-position: center; /* 배경 이미지 위치 조정 */
+    background-repeat: no-repeat; /* 반복하지 않도록 설정 */
     color: white; /* 텍스트 색상 */
     padding: 40px; /* 패딩 추가 */
     position: relative; /* 위치 설정 */
@@ -23,7 +24,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* 반투명 검정색 배경 */
+    background-color: rgba(0, 0, 0, 0.3); /* 반투명 검정색 배경 (투명도 조정) */
     z-index: 1; /* 텍스트 위에 오도록 설정 */
 }
 
