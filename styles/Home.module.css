@@ -46,6 +46,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px; /* 버튼 위에 공간 추가 */
 }
 
 .cardContainer {
