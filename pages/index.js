@@ -17,7 +17,7 @@ const Home = () => {
         <div className={styles.container}>
             <header className={styles.header}>
                 <h1 className={styles.title}>카드 뉴스</h1>
-                <p>우리는 이야기를 찾기 위해 세상을 여행합니다. 함께 가요!</p>
+                <p>우리는 이야기를 찾기 위해 세상을 여행합니다. 함께 가!</p>
                 <button className={styles.viewPosts}>최신 게시물 보기</button>
             </header>
             <div className={styles.cardContainer}>
